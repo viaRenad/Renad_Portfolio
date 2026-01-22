@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Renad Alansari</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- HEADER / NAVIGATION -->
+  <header>
+    <div class="logo">RENAD</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About ME</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero-section">
+    <div class="hero-text">
+      <h1>Renad Alansari</h1>
+      <p class="subtitle">
+        AI Specialist With An Interest In Data Science<br />
+        And A Working Knowledge In UX/UI Design<br />
+        And Web Development
+      </p>
+      <div class="hero-buttons">
+        <!-- PRIMARY BUTTON -->
+        <a href="#projects" class="btn btn-primary">View My Projects</a>
+        <!-- OUTLINE BUTTON -->
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <!-- Replace with your local robot image (e.g., "Images/Robot.png") -->
+      <img src="Images/Robot.png" alt="3D Robot" />
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about-section">
+    <h2 class="about-title">About ME</h2>
+    <div class="about-text-box">
+      <p>
+        Based in Makkah, I'm an Artificial Intelligence graduate student
+        at Umm Al-Qura University.
+      </p>
+      
+      <p>
+        I specialize in developing AI systems that automate processes, analyze data,
+        and solve problems. I've worked on projects that blend deep learning,
+        data science, and programming, focusing on building intuitive, user-centered applications that
+        drive real-world impact.
+      </p>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="projects-section">
+    <h2>My Projects</h2>
+    
+    <div class="project">
+      <div class="project-image">
+        <img src="Images/CashWise.png" alt="Cash Wise Project" />
+      </div>
+      <div class="project-info">
+        <h3>Cash Wise</h3>
+        <p>
+          A budget management tool that helps users track expenses, manage debts,
+          set savings goals, and receive bill reminders, all while providing
+          detailed reports and progress tracking.
+        </p>
+        <a href="https://www.figma.com/design/o4Zez7O069NxTw13K5nRxw/Cash-Wise?node-id=0-1&t=sMUpOfGbi7Pwnatg-1" class="btn" target="_blank">View Project</a>
+      </div>
+    </div>
+
+    <div class="project">
+  <div class="project-image">
+    <video class="project-video"
+           autoplay
+           muted
+           loop
+           playsinline
+           preload="auto"
+           poster="">
+      <source src="videos/Mulabbi.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div class="project-info">
+    <h3>Mulabbi: The Nusuk companion</h3>
+    <p>
+      A smart mobile application designed to guide pilgrims through their nusuk journey. It provides a step-by-step guide for performing rituals correctly. It’s a complete companion app that centralizes everything a pilgrim needs from prayer times and nusuk tracking to ad’iyah, history, notifications, and much more.
+    </p>
+   <div class="project-buttons">
+      <a href="https://www.figma.com/design/yTbWo8NovAZCH0Ib7bgxw5/Mulabi-App?node-id=0-1&t=M3RwRrT4CCkXZWTx-1" class="btn btn-primary" target="_blank">View in Figma</a>
+      <a href="https://github.com/viaRenad/Mulabbi_The-Nusuk_Companion" class="btn btn-outline" target="_blank">Access Code</a>
+    </div>
+  </div>
+</div>
+
+    <div class="project">
+  <div class="project-image">
+    <video class="project-video"
+           autoplay
+           muted
+           loop
+           playsinline
+           preload="auto"
+           poster="">
+      <source src="videos/EcoDetect.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div class="project-info">
+    <h3>EcoDetect: AI Waste Management</h3>
+    <p>
+      An intelligent mobile application designed to promote environmental sustainability. Using a deep learning model integrated with
+      HuggingFace's EfficientNetB0, the app accurately identifies waste materials across
+      six categories (Plastic, Paper, Glass, Metal, Cardboard, and Trash), and it provides
+      real-time confidence scores and eco-friendly disposal tips, transforming everyday
+      waste sorting into an effortless and educational experience.
+    </p>
+  <a href="https://github.com/nabaouladyaich11/EcoDetect-AI-Waste-Classifier" class="btn" target="_blank">View Project</a>
+</div>
+</div>
+
+    <div class="project">
+      <div class="project-image">
+        <img src="Images/VividVision.png" alt="Vivid Vision Project" />
+      </div>
+      <div class="project-info">
+        <h3>Vivid Vision</h3>
+        <p>
+          A computer vision tool in MATLAB to enhance nighttime surveillance footage visibility using statistical color transfer and other techniques to reveal details in low-light conditions, aiding law enforcement in clearer identification and evidence analysis.
+        </p>
+        <a href="https://github.com/viaRenad/VividVision_A_Computer_Vision_Tool" class="btn" target="_blank">View Project</a>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-image">
+        <img src="Images/Recom.png" alt="Job Recommendation System" />
+      </div>
+      <div class="project-info">
+        <h3>Content-Based Job Recommendation System</h3>
+        <p>
+          A system that recommends jobs to users based on their skills and interests
+          using natural language processing (NLP) techniques. It applies both
+          TF-IDF vectorization and word embeddings to match user input with job
+          descriptions, focusing on semantic similarity rather than simple
+          keyword matching.
+        </p>
+        <a href="https://github.com/viaRenad/Content-Based-Job-Recommendation-System" class="btn" target="_blank">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="skills-section">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-box">Deep Learning</div>
+      <div class="skill-box">Computer Vision</div>
+      <div class="skill-box">Data Analyses</div>
+      <div class="skill-box">NLP</div>
+      <div class="skill-box">Web Development</div>
+      <div class="skill-box">Generative AI</div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <div class="contact-icons">
+        <a href="tel:+966545451344" class="contact-icon" title="Phone target="_blank"">
+            <img src="Images/Phone.png" alt="Phone Icon" />
+          </a>          
+      <a href="mailto:renadalansari8@gmail.com" class="contact-icon" title="Email target="_blank"">
+        <img src="Images/Mail.png" alt="Email Icon" />
+      </a>
+      <a href="https://x.com/viaRenad" class="contact-icon" title="X target="_blank"">
+        <img src="Images/X.png" alt="X Icon" />
+      </a>
+      <a href="https://github.com/viaRenad" class="contact-icon" title="GitHub target="_blank"">
+        <img src="Images/GitHub.png" alt="GitHub Icon" />
+      </a>
+      <a href="https://www.linkedin.com/in/renad-alansari-085806273/" class="contact-icon" title="LinkedIn" target="_blank">
+        <img src="Images/LinkedIn.png" alt="LinkedIn Icon" />
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">RENAD</div>
+      <ul class="footer-nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <p class="footer-rights">© 2025 Renad. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
